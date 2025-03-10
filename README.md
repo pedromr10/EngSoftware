@@ -8,6 +8,6 @@
 
 ###
 
-<p align="left">Pedro Munhoz Rosin | 24.122.013-6<br><br>Gustavo Gomes Barbosa | 24.122.061-5<br><br>Alan Daiki Suga | <br><br>Paulo Vinicius |</p>
+<p align="left">Pedro Munhoz Rosin | 24.122.013-6<br><br>Gustavo Gomes Barbosa | 24.122.061-5<br><br>Alan Daiki Suga | 24.122.051-6<br><br>Paulo Vinicius |</p>
 
 ###
