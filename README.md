@@ -1,6 +1,6 @@
 ![Novo Projeto](https://github.com/user-attachments/assets/1f33f195-9b6d-4773-ae52-d17730991cd3)
 
-<p align="left">Projeto de Gestão de projetos de software (CC7540).<br><br>7º Semestre - Ciências da Computação</p>
+<p align="left">Projeto de Gestão de projetos de software (CC7540).<br><br>7º Semestre - Ciências da Computação | FEI</p>
 
 ###
 
