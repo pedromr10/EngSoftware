@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
+  <diagram name="Página-1" id="26x6UvToOE2OdKdYyYhs">
+    <mxGraphModel dx="786" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PKhUlfLcWhVZY0asT9gV-2" value="&lt;b&gt;&amp;lt;&amp;lt;Serviço Relatório&amp;gt;&amp;gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="303" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="PKhUlfLcWhVZY0asT9gV-3" value="+ Criar relatório de saúde" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PKhUlfLcWhVZY0asT9gV-2">
+          <mxGeometry y="26" width="210" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="PKhUlfLcWhVZY0asT9gV-4" value="+ Criar período para enviar relatórios" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PKhUlfLcWhVZY0asT9gV-2">
+          <mxGeometry y="60" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PKhUlfLcWhVZY0asT9gV-6" value="&amp;lt;&amp;lt;Interface Serviço&amp;gt;&amp;gt;&lt;div&gt;Relatório&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="273" width="210" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="PKhUlfLcWhVZY0asT9gV-7" value="+ Criar relatório de saúde&lt;div&gt;&lt;b&gt;Input:&lt;/b&gt; Relatório: Dados Relatório&lt;/div&gt;&lt;div&gt;&lt;b&gt;Output:&lt;/b&gt; Relatório: Dados Relatório&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PKhUlfLcWhVZY0asT9gV-6">
+          <mxGeometry y="40" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PKhUlfLcWhVZY0asT9gV-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="PKhUlfLcWhVZY0asT9gV-6">
+          <mxGeometry y="90" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="PKhUlfLcWhVZY0asT9gV-9" value="+ Criar período para enviar relatórios&lt;div&gt;&lt;div&gt;&lt;b&gt;Input:&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;R&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;elatório: Dados Relatório&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Output:&lt;/b&gt; PeriodoDeEnvio: int&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PKhUlfLcWhVZY0asT9gV-6">
+          <mxGeometry y="98" width="210" height="62" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
