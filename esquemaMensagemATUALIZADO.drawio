@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.2.14">
+  <diagram name="Página-1" id="T_AErlrEFujs7essocVB">
+    <mxGraphModel dx="542" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3d6smte6jpRVyJivvR1t-1" value="&amp;lt;&amp;lt;Mensagem&amp;gt;&amp;gt;&lt;div&gt;Dados Gerenciar Conta&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="640" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="3d6smte6jpRVyJivvR1t-2" value="+ ID: string&lt;div&gt;+ Nome: string&lt;/div&gt;&lt;div&gt;+ Idade: int&lt;/div&gt;&lt;div&gt;+ Endereco: string&lt;/div&gt;&lt;div&gt;+ Doencas: string&lt;/div&gt;&lt;div&gt;+ TipoSanguineo: string&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3d6smte6jpRVyJivvR1t-1">
+          <mxGeometry y="40" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3d6smte6jpRVyJivvR1t-5" value="&amp;lt;&amp;lt;Serviço Gerenciar Conta&amp;gt;&amp;gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="665" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3d6smte6jpRVyJivvR1t-6" value="+ Atribuir o ID&lt;div&gt;+ Cadastrar usuário&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3d6smte6jpRVyJivvR1t-5">
+          <mxGeometry y="45" width="160" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="3d6smte6jpRVyJivvR1t-11" value="&amp;lt;&amp;lt;Mensagem&amp;gt;&amp;gt;&lt;div&gt;Dados Gerenciar Contatos&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="820" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3d6smte6jpRVyJivvR1t-12" value="+ Nome: string&lt;div&gt;+ Email: string&lt;/div&gt;&lt;div&gt;+ Telefone: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3d6smte6jpRVyJivvR1t-11">
+          <mxGeometry y="40" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3d6smte6jpRVyJivvR1t-13" value="&amp;lt;&amp;lt;Serviço Gerenciar Contatos&amp;gt;&amp;gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="820" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3d6smte6jpRVyJivvR1t-14" value="+ Criar os contatos" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3d6smte6jpRVyJivvR1t-13">
+          <mxGeometry y="45" width="160" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="3d6smte6jpRVyJivvR1t-15" value="&amp;lt;&amp;lt;Mensagem&amp;gt;&amp;gt;&lt;div&gt;Dados Gerenciar Sinais Vitais&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="950" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3d6smte6jpRVyJivvR1t-16" value="+ Batimento: int&lt;div&gt;+ Temperatura: float&lt;/div&gt;&lt;div&gt;+ Umidade: int&lt;/div&gt;&lt;div&gt;+ Alteracao: string&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3d6smte6jpRVyJivvR1t-15">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3d6smte6jpRVyJivvR1t-17" value="&amp;lt;&amp;lt;Serviço Gerenciar Sinais Vitais&amp;gt;&amp;gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="950" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3d6smte6jpRVyJivvR1t-18" value="+ Receber dados vitais&lt;div&gt;+ Comparar sinais vitais&lt;/div&gt;&lt;div&gt;+ Armazenar sinais vitais&lt;/div&gt;&lt;div&gt;+ Exibir sinais vitais&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3d6smte6jpRVyJivvR1t-17">
+          <mxGeometry y="45" width="160" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="3d6smte6jpRVyJivvR1t-19" value="&amp;lt;&amp;lt;Mensagem&amp;gt;&amp;gt;&lt;div&gt;Dados Gerenciar Relatório&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1100" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="3d6smte6jpRVyJivvR1t-20" value="+ Nome: string&lt;div&gt;+ Idade: int&lt;/div&gt;&lt;div&gt;+ Data: date&lt;/div&gt;&lt;div&gt;+ SinaisVitais: Dados Sinais Vitais&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3d6smte6jpRVyJivvR1t-19">
+          <mxGeometry y="50" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3d6smte6jpRVyJivvR1t-21" value="&amp;lt;&amp;lt;Serviço Gerenciar Relatório&amp;gt;&amp;gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1100" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3d6smte6jpRVyJivvR1t-22" value="+ Gerar relatório de saúde&lt;div&gt;+ Criar período de envio de relatório&lt;/div&gt;&lt;div&gt;+ Envio de relatório&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3d6smte6jpRVyJivvR1t-21">
+          <mxGeometry y="45" width="160" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="3d6smte6jpRVyJivvR1t-23" value="&amp;lt;&amp;lt;Mensagem&amp;gt;&amp;gt;&lt;div&gt;Dados Gerenciar Emergência&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1270" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="3d6smte6jpRVyJivvR1t-24" value="+ Relatorio: Dados Relatório&lt;div&gt;+ Mensagem: string&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3d6smte6jpRVyJivvR1t-23">
+          <mxGeometry y="50" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3d6smte6jpRVyJivvR1t-25" value="&amp;lt;&amp;lt;Serviço Gerenciar Emergência&amp;gt;&amp;gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1270" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3d6smte6jpRVyJivvR1t-26" value="+ Chamada de emergência&lt;div&gt;+ Envio de relatório emergencial&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3d6smte6jpRVyJivvR1t-25">
+          <mxGeometry y="45" width="160" height="55" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
